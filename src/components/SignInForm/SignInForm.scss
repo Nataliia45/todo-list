@@ -1,0 +1,49 @@
+.SignInForm {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .SignInForm h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .SignInForm p {
+    margin-bottom: 1rem;
+  }
+  
+  .SignInForm input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .SignInForm .error {
+    color: #e74c3c;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+  }
+  
+  .SignInForm button {
+    width: 100%;
+    padding: 10px;
+    background: #3498db;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .SignInForm button:hover {
+    background: #2980b9;
+  }
+  

@@ -1,0 +1,28 @@
+.AddTodoItemForm {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .AddTodoItemForm input {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .AddTodoItemForm button {
+    padding: 10px;
+    background: #3498db;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .AddTodoItemForm button:hover {
+    background: #2980b9;
+  }
+  
